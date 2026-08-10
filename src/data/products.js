@@ -1,0 +1,448 @@
+export const products = [
+  // CATEGORY: IN WALL RETROFIT SERIES (12)
+  {
+    id: "lexip-in-wall-1-switch",
+    title: "LEXIP IN WALL MODULE 1 SWITCH",
+    model: "LXP-IN-1",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 1850,
+    originalPrice: 2200,
+    rating: 4.8,
+    reviews: 124,
+    image: "/images/products/lexip module1.webp",
+    description: "Convert any standard 1-gang switch into a smart switch effortlessly."
+  },
+  {
+    id: "lexip-in-wall-2-switch",
+    title: "LEXIP INWALL MODULE 2 SWITCH",
+    model: "LXP-IN-2",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 2450,
+    originalPrice: 2800,
+    rating: 4.7,
+    reviews: 89,
+    image: "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=600",
+    description: "Smart 2-gang retrofit module for dual switch control hidden perfectly behind your wall plate."
+  },
+  {
+    id: "lexip-in-wall-4-switch",
+    title: "LEXIP INWALL MODULE 4 SWITCH",
+    model: "LXP-IN-4",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 3600,
+    originalPrice: 4100,
+    rating: 4.9,
+    reviews: 210,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Control up to 4 circuits independently with this compact smart relay module."
+  },
+  {
+    id: "lexip-in-wall-6-switch",
+    title: "LEXIP INWALL MODULE 6 SWITCH",
+    model: "LXP-IN-6",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 4800,
+    originalPrice: 5500,
+    rating: 4.6,
+    reviews: 65,
+    image: "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=600",
+    description: "The ultimate 6-gang control hub for complex lighting setups and comprehensive room automation."
+  },
+  {
+    id: "lexip-in-wall-25a",
+    title: "LEXIP INWALL 25A",
+    model: "LXP-IN-25A",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 2900,
+    originalPrice: 3400,
+    rating: 4.8,
+    reviews: 142,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Heavy-duty 25A module designed specifically for high-load appliances."
+  },
+  {
+    id: "lexip-smart-plug-16a",
+    title: "LEXIP SMART PLUG 16 AMPS",
+    model: "LXP-IN-1", // Duplicate model label from PDF
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 1500,
+    originalPrice: 1999,
+    rating: 4.7,
+    reviews: 320,
+    image: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&q=80&w=600",
+    description: "Portable 16A smart plug with energy monitoring capabilities. Just plug and play."
+  },
+  {
+    id: "lexip-smart-ir-controller",
+    title: "LEXIP SMART IR CONTROLLER",
+    model: "LXP-IR BLASTER",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 1250,
+    originalPrice: 1500,
+    rating: 4.5,
+    reviews: 415,
+    image: "https://images.unsplash.com/photo-1544228833-2884c7eece10?auto=format&fit=crop&q=80&w=600",
+    description: "Universal IR remote replacement. Control your TV, AC, and set-top box from anywhere."
+  },
+  {
+    id: "lexip-in-wall-1-switch-duplicate",
+    title: "LEXIP IN WALL MODULE 1 SWITCH",
+    model: "LXP-IN-1", // Listed twice in PDF
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 1850,
+    originalPrice: 2200,
+    rating: 4.8,
+    reviews: 124,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Convert any standard 1-gang switch into a smart switch effortlessly. (Variant)"
+  },
+  {
+    id: "lexip-rgbw-12v-controller",
+    title: "LEXIP RGBW 12V CONTROLLER",
+    model: "LXP-RGBW-12V",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 2200,
+    originalPrice: 2600,
+    rating: 4.6,
+    reviews: 95,
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600",
+    description: "Smart 12V LED strip controller for vibrant RGBW ambient lighting automation."
+  },
+  {
+    id: "lexip-rgbw-24v-controller",
+    title: "LEXIP RGBW 12V CONTROLLER", // As specified by strict naming rules
+    model: "LXP-RGBW-24V",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 2400,
+    originalPrice: 2800,
+    rating: 4.7,
+    reviews: 78,
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600",
+    description: "Industrial-grade 24V RGBW controller designed for longer LED strips and commercial setups."
+  },
+  {
+    id: "lexip-rgbw-controller",
+    title: "LEXIP RGBW CONTROLLER",
+    model: "LXP-RGB-C",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 1800,
+    originalPrice: 2100,
+    rating: 4.5,
+    reviews: 112,
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600",
+    description: "Standard RGB controller for seamless integration with Lexip smart home ecosystems."
+  },
+  {
+    id: "lexip-pulse-switch-curtain-controller",
+    title: "LEXIP PULSE SWITCH/CURTAIN CONTROLLER",
+    model: "LXP-P-SC",
+    category: "IN WALL RETROFIT SERIES",
+    brand: "Lexip",
+    price: 3200,
+    originalPrice: 3800,
+    rating: 4.9,
+    reviews: 156,
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=600",
+    description: "Automate your motorized curtains and blinds with precise positioning control."
+  },
+
+  // CATEGORY: SENSORS (4)
+  {
+    id: "lexip-door-sensor",
+    title: "LEXIP DOOR SENSOR",
+    model: "LXP-DR-SR",
+    category: "SENSORS",
+    brand: "Lexip",
+    price: 1100,
+    originalPrice: 1400,
+    rating: 4.8,
+    reviews: 285,
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
+    description: "Magnetic contact sensor to monitor doors and windows in real-time."
+  },
+  {
+    id: "lexip-pir-motion-sensor",
+    title: "LEXIP PIR MOTION SENSOR",
+    model: "LXP-PR-MS",
+    category: "SENSORS",
+    brand: "Lexip",
+    price: 1650,
+    originalPrice: 2000,
+    rating: 4.6,
+    reviews: 198,
+    image: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&q=80&w=600",
+    description: "Passive Infrared sensor for accurate motion detection and security triggers."
+  },
+  {
+    id: "microwave-motion-sensor",
+    title: "MICROWAVE MOTION SENSOR",
+    model: "LXP-MW-MS",
+    category: "SENSORS",
+    brand: "Lexip",
+    price: 2400,
+    originalPrice: 2900,
+    rating: 4.9,
+    reviews: 84,
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
+    description: "Advanced microwave motion sensing technology that penetrates walls and glass for invisible automation."
+  },
+  {
+    id: "lexip-sensor-hub",
+    title: "LEXIP SENSOR HUB",
+    model: "LXP-SR-HB",
+    category: "SENSORS",
+    brand: "Lexip",
+    price: 4500,
+    originalPrice: 5200,
+    rating: 4.8,
+    reviews: 145,
+    image: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&q=80&w=600",
+    description: "Centralized hub to bridge all your Lexip wireless sensors to the core network."
+  },
+
+  // CATEGORY: METAL TOUCH (5)
+  {
+    id: "lexip-metal-touch-01",
+    title: "Metal Touch",
+    variantId: "metal-touch-01",
+    category: "METAL TOUCH",
+    brand: "Lexip",
+    price: 3500, // Mock price
+    rating: 4.8,
+    reviews: 90,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Premium Metal Touch series variant."
+  },
+  {
+    id: "lexip-metal-touch-02",
+    title: "Metal Touch",
+    variantId: "metal-touch-02",
+    category: "METAL TOUCH",
+    brand: "Lexip",
+    price: 3500,
+    rating: 4.8,
+    reviews: 90,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Premium Metal Touch series variant."
+  },
+  {
+    id: "lexip-metal-touch-03",
+    title: "Metal Touch",
+    variantId: "metal-touch-03",
+    category: "METAL TOUCH",
+    brand: "Lexip",
+    price: 3500,
+    rating: 4.8,
+    reviews: 90,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Premium Metal Touch series variant."
+  },
+  {
+    id: "lexip-metal-touch-04",
+    title: "Metal Touch",
+    variantId: "metal-touch-04",
+    category: "METAL TOUCH",
+    brand: "Lexip",
+    price: 3500,
+    rating: 4.8,
+    reviews: 90,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Premium Metal Touch series variant."
+  },
+  {
+    id: "lexip-metal-touch-05",
+    title: "Metal Touch",
+    variantId: "metal-touch-05",
+    category: "METAL TOUCH",
+    brand: "Lexip",
+    price: 3500,
+    rating: 4.8,
+    reviews: 90,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Premium Metal Touch series variant."
+  },
+
+  // CATEGORY: LEXIP TOUCH SWITCHES (6)
+  {
+    id: "lexip-tch-2m",
+    title: "LXP-TCH-2M",
+    model: "LXP-TCH-2M",
+    category: "LEXIP TOUCH SWITCHES",
+    brand: "Lexip",
+    price: 2800,
+    originalPrice: 3200,
+    rating: 4.7,
+    reviews: 215,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Premium 2-module tempered glass touch switch with tactile haptic feedback."
+  },
+  {
+    id: "lexip-tch-4m",
+    title: "LXP-TCH-4M",
+    model: "LXP-TCH-4M",
+    category: "LEXIP TOUCH SWITCHES",
+    brand: "Lexip",
+    price: 3800,
+    originalPrice: 4500,
+    rating: 4.8,
+    reviews: 180,
+    image: "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=600",
+    description: "Sleek 4-module smart touch panel for multi-light living room control."
+  },
+  {
+    id: "lexip-tch-6m",
+    title: "LXP-TCH-6M",
+    model: "LXP-TCH-6M",
+    category: "LEXIP TOUCH SWITCHES",
+    brand: "Lexip",
+    price: 4900,
+    originalPrice: 5800,
+    rating: 4.9,
+    reviews: 110,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Expansive 6-module touch switch offering granular control over large spaces."
+  },
+  {
+    id: "lexip-tch-8m",
+    title: "LXP-TCH-8M",
+    model: "LXP-TCH-8M",
+    category: "LEXIP TOUCH SWITCHES",
+    brand: "Lexip",
+    price: 5800,
+    originalPrice: 6500,
+    rating: 4.7,
+    reviews: 95,
+    image: "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=600",
+    description: "High-end 8-module touch console for comprehensive smart lighting and fan control."
+  },
+  {
+    id: "lexip-tch-12m",
+    title: "LXP-TCH-12M",
+    model: "LXP-TCH-12M",
+    category: "LEXIP TOUCH SWITCHES",
+    brand: "Lexip",
+    price: 7500,
+    originalPrice: 8500,
+    rating: 4.8,
+    reviews: 62,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Massive 12-module intelligent switchboard for master bedrooms and boardrooms."
+  },
+  {
+    id: "lexip-tch-16m",
+    title: "LXP-TCH-16M",
+    model: "LXP-TCH-16M",
+    category: "LEXIP TOUCH SWITCHES",
+    brand: "Lexip",
+    price: 9200,
+    originalPrice: 10500,
+    rating: 5.0,
+    reviews: 41,
+    image: "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=600",
+    description: "The ultimate 16-module command center. Control every appliance in the hall from one elegant panel."
+  },
+
+  // CATEGORY: LEXIP DOOR LOCKS (4)
+  {
+    id: "lexip-dl-fdl",
+    title: "LEXIP FINGERPRINT DOOR LOCK",
+    model: "LXP-DL-FDL",
+    category: "LEXIP DOOR LOCKS",
+    brand: "Lexip",
+    price: 14500,
+    originalPrice: 17000,
+    rating: 4.9,
+    reviews: 310,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Biometric smart lock featuring 3D fingerprint recognition, RFID card access, and emergency key."
+  },
+  {
+    id: "lexip-dl-dl",
+    title: "LEXIP DOOR LOCK",
+    model: "LXP-DL-DL",
+    category: "LEXIP DOOR LOCKS",
+    brand: "Lexip",
+    price: 12500, // Mock price
+    rating: 4.8,
+    reviews: 140,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Premium secure smart door lock for seamless home access."
+  },
+  {
+    id: "lexip-dl-fl",
+    title: "LEXIP FACE LOCK",
+    model: "LXP-DL-FL",
+    category: "LEXIP DOOR LOCKS",
+    brand: "Lexip",
+    price: 18500, // Mock price
+    rating: 4.9,
+    reviews: 85,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Advanced 3D facial recognition smart lock for maximum convenience and security."
+  },
+  {
+    id: "lexip-dl-hdl",
+    title: "LEXIP HOTEL DOOR LOCK",
+    model: "LXP-DL-HDL",
+    category: "LEXIP DOOR LOCKS",
+    brand: "Lexip",
+    price: 9500,
+    originalPrice: 11000,
+    rating: 4.7,
+    reviews: 185,
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    description: "Commercial-grade RFID and PIN door lock optimized for hospitality and property management."
+  },
+
+  // CATEGORY: GATE AUTOMATION (3)
+  {
+    id: "lexip-sgm-1",
+    title: "SLIDING GATE MOTOR",
+    model: "LXP-SGM-1",
+    category: "GATE AUTOMATION",
+    brand: "Lexip",
+    price: 32000,
+    originalPrice: 35000,
+    rating: 4.9,
+    reviews: 155,
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=600",
+    description: "Industrial strength AC sliding gate operator capable of hauling up to 600KG smoothly."
+  },
+  {
+    id: "lexip-cgm-2",
+    title: "SWING GATE MOTOR",
+    model: "LXP-CGM-2",
+    category: "GATE AUTOMATION",
+    brand: "Lexip",
+    price: 24500,
+    originalPrice: 28000,
+    rating: 4.8,
+    reviews: 120,
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=600",
+    description: "Heavy-duty dual swing gate motor set with soft start/stop and obstacle detection."
+  },
+  {
+    id: "lexip-cgm-3",
+    title: "CURTAIN GATE MOTOR",
+    model: "LXP-CGM-3",
+    category: "GATE AUTOMATION",
+    brand: "Lexip",
+    price: 12800,
+    originalPrice: 14500,
+    rating: 4.6,
+    reviews: 95,
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=600",
+    description: "Silent operation curtain track motor for automated drapes up to 50kg."
+  }
+];
