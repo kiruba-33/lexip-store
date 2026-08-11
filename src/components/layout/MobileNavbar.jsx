@@ -41,7 +41,7 @@ export default function MobileNavbar() {
             <input 
               type="text" 
               placeholder="Search PLCs, sensors, gateways..." 
-              className="w-full bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-400 font-medium text-sm rounded-xl py-2.5 pl-9 pr-4 focus:outline-none focus:ring-2 focus:ring-purple-600/20 focus:border-purple-600 transition-all"
+              className="w-full bg-slate-50 border border-slate-200 text-slate-900 placeholder-slate-400 font-medium text-sm rounded-xl py-2.5 pl-9 pr-4 focus:outline-none focus:ring-2 focus:ring-lexip-600/20 focus:border-lexip-600 transition-all"
             />
           </div>
         </div>

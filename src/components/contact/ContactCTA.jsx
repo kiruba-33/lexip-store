@@ -14,7 +14,7 @@ export default function ContactCTA() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <Link to="/products" className="w-full sm:w-auto inline-flex items-center justify-center bg-purple-600 text-white font-bold px-8 py-3.5 rounded-full text-sm tracking-wide hover:bg-purple-700 transition-colors shadow-sm uppercase">
+          <Link to="/products" className="w-full sm:w-auto inline-flex items-center justify-center bg-lexip-600 text-white font-bold px-8 py-3.5 rounded-full text-sm tracking-wide hover:bg-lexip-700 transition-colors shadow-sm uppercase">
             EXPLORE PRODUCTS
           </Link>
           <Link to="/" className="w-full sm:w-auto inline-flex items-center justify-center bg-white text-slate-700 font-bold px-8 py-3.5 rounded-full text-sm tracking-wide hover:bg-slate-50 border border-slate-200 transition-colors shadow-sm uppercase">

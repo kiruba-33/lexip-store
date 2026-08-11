@@ -22,7 +22,7 @@ export default function ExpertiseSection() {
         {expertise.map((item, idx) => {
           const Icon = item.icon;
           return (
-            <div key={idx} className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col items-center text-center justify-center min-h-[180px] hover:border-purple-300 transition-colors">
+            <div key={idx} className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col items-center text-center justify-center min-h-[180px] hover:border-lexip-300 transition-colors">
               <Icon className="w-8 h-8 text-slate-700 mb-4" strokeWidth={1.5} />
               <h3 className="text-sm font-bold text-slate-900 leading-snug">{item.title}</h3>
             </div>

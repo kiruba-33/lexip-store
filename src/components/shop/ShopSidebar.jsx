@@ -11,8 +11,8 @@ export default function ShopSidebar({ maxPrice = 100000, setMaxPrice }) {
         <div className="space-y-2.5">
           {['All Products', 'Smart Home', 'Sensors', 'Switches', 'Security', 'Motors'].map((cat, idx) => (
             <label key={idx} className="flex items-center space-x-2 cursor-pointer group">
-              <input type="checkbox" className="rounded text-purple-600 focus:ring-purple-600/20 border-slate-300" defaultChecked={idx === 0} />
-              <span className="text-sm font-medium text-slate-700 group-hover:text-purple-600 transition-colors">{cat}</span>
+              <input type="checkbox" className="rounded text-lexip-600 focus:ring-lexip-600/20 border-slate-300" defaultChecked={idx === 0} />
+              <span className="text-sm font-medium text-slate-700 group-hover:text-lexip-600 transition-colors">{cat}</span>
             </label>
           ))}
         </div>
@@ -28,7 +28,7 @@ export default function ShopSidebar({ maxPrice = 100000, setMaxPrice }) {
           step="500"
           value={maxPrice}
           onChange={(e) => setMaxPrice && setMaxPrice(Number(e.target.value))}
-          className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-purple-600"
+          className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-lexip-600"
         />
         <div className="flex justify-between items-center mt-2 text-xs font-bold text-slate-500">
           <span>₹0</span>

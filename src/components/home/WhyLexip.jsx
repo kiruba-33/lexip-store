@@ -8,7 +8,7 @@ export default function WhyLexip() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="w-14 h-14 bg-purple-900/30 text-purple-400 rounded-2xl flex items-center justify-center mb-4">
+            <div className="w-14 h-14 bg-lexip-900/30 text-lexip-400 rounded-2xl flex items-center justify-center mb-4">
               <Truck className="w-7 h-7" />
             </div>
             <h3 className="text-lg font-bold mb-2 tracking-tight">Global Express Logistics</h3>
@@ -16,7 +16,7 @@ export default function WhyLexip() {
           </div>
 
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="w-14 h-14 bg-purple-900/30 text-purple-400 rounded-2xl flex items-center justify-center mb-4">
+            <div className="w-14 h-14 bg-lexip-900/30 text-lexip-400 rounded-2xl flex items-center justify-center mb-4">
               <ShieldCheck className="w-7 h-7" />
             </div>
             <h3 className="text-lg font-bold mb-2 tracking-tight">3-Year Factory Warranty</h3>
@@ -24,7 +24,7 @@ export default function WhyLexip() {
           </div>
 
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="w-14 h-14 bg-purple-900/30 text-purple-400 rounded-2xl flex items-center justify-center mb-4">
+            <div className="w-14 h-14 bg-lexip-900/30 text-lexip-400 rounded-2xl flex items-center justify-center mb-4">
               <Headphones className="w-7 h-7" />
             </div>
             <h3 className="text-lg font-bold mb-2 tracking-tight">24/7 Field Engineering</h3>

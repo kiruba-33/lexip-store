@@ -20,9 +20,11 @@ export default function Profile() {
             {/* Header Card */}
             <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm flex flex-col items-center text-center">
               <div className="w-24 h-24 rounded-full border-4 border-slate-50 overflow-hidden shadow-sm mb-4">
-                <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Profile Avatar" className="w-full h-full object-cover" />
+                <div className="w-full h-full bg-lexip-50 flex items-center justify-center">
+                  <span className="text-lexip-600 font-black text-4xl">L</span>
+                </div>
               </div>
-              <span className="text-[10px] font-bold text-purple-600 uppercase tracking-widest mb-1">PROFILE</span>
+              <span className="text-[10px] font-bold text-lexip-600 uppercase tracking-widest mb-1">PROFILE</span>
               <h1 className="text-2xl font-black text-slate-900 tracking-tight">LEXIP Customer</h1>
               <p className="text-slate-500 font-medium text-sm mt-1">customer@example.com</p>
             </div>
@@ -31,15 +33,15 @@ export default function Profile() {
             <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
               <h3 className="text-sm font-bold text-slate-900 uppercase tracking-widest mb-4 px-2">Quick Actions</h3>
               <div className="space-y-1">
-                <Link to="/products" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 hover:text-purple-700 transition-colors font-bold text-sm">
+                <Link to="/products" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 hover:text-lexip-700 transition-colors font-bold text-sm">
                   <ShoppingBag className="w-5 h-5 text-slate-400" />
                   Browse Products
                 </Link>
-                <Link to="/cart" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 hover:text-purple-700 transition-colors font-bold text-sm">
+                <Link to="/cart" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 hover:text-lexip-700 transition-colors font-bold text-sm">
                   <Package className="w-5 h-5 text-slate-400" />
                   View Cart
                 </Link>
-                <Link to="/contact" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 hover:text-purple-700 transition-colors font-bold text-sm">
+                <Link to="/contact" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 hover:text-lexip-700 transition-colors font-bold text-sm">
                   <Settings className="w-5 h-5 text-slate-400" />
                   Contact LEXIP
                 </Link>
@@ -97,7 +99,7 @@ export default function Profile() {
             <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-lg font-black text-slate-900 tracking-tight">Personal Information</h2>
-                <button className="text-xs font-bold text-purple-600 uppercase tracking-widest hover:text-purple-800 transition-colors">Edit</button>
+                <button className="text-xs font-bold text-lexip-600 uppercase tracking-widest hover:text-lexip-800 transition-colors">Edit</button>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

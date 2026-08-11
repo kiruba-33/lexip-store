@@ -16,7 +16,7 @@ export default function Cart() {
           </div>
           <h1 className="text-3xl font-black text-slate-900 tracking-tight mb-3">Your cart is empty</h1>
           <p className="text-slate-500 font-medium mb-8 max-w-sm">Looks like you haven't added any products to your cart yet.</p>
-          <Link to="/products" className="bg-purple-600 hover:bg-purple-700 text-white font-bold px-8 py-3.5 rounded-full text-sm tracking-wide transition-colors shadow-sm uppercase">
+          <Link to="/products" className="bg-lexip-600 hover:bg-lexip-700 text-white font-bold px-8 py-3.5 rounded-full text-sm tracking-wide transition-colors shadow-sm uppercase">
             START SHOPPING
           </Link>
         </main>
@@ -41,8 +41,8 @@ export default function Cart() {
                 <div className="flex-grow flex flex-col h-full w-full">
                   <div className="flex justify-between items-start gap-4 mb-2">
                     <div>
-                      <span className="text-[10px] font-bold text-purple-600 uppercase tracking-widest mb-1 block">{item.brand}</span>
-                      <Link to={`/product/${item.id}`} className="text-base font-bold text-slate-900 leading-snug hover:text-purple-700 line-clamp-2">
+                      <span className="text-[10px] font-bold text-lexip-600 uppercase tracking-widest mb-1 block">{item.brand}</span>
+                      <Link to={`/product/${item.id}`} className="text-base font-bold text-slate-900 leading-snug hover:text-lexip-700 line-clamp-2">
                         {item.title}
                       </Link>
                     </div>
@@ -110,7 +110,7 @@ export default function Cart() {
                 </div>
               </div>
               
-              <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-colors shadow-sm mb-4">
+              <button className="w-full bg-lexip-600 hover:bg-lexip-700 text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-colors shadow-sm mb-4">
                 PROCEED TO CHECKOUT
                 <ArrowRight className="w-4 h-4" />
               </button>

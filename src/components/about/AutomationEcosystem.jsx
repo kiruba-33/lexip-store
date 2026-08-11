@@ -30,7 +30,7 @@ export default function AutomationEcosystem() {
           const Icon = cat.icon;
           return (
             <div key={idx} className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 hover:bg-slate-800 transition-colors">
-              <Icon className="w-8 h-8 text-purple-400 mb-4" strokeWidth={1.5} />
+              <Icon className="w-8 h-8 text-lexip-400 mb-4" strokeWidth={1.5} />
               <h3 className="font-bold text-white mb-2">{cat.name}</h3>
               <p className="text-sm text-slate-400 font-medium">{cat.desc}</p>
             </div>

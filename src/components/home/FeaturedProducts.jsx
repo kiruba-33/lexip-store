@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sparkles } from 'lucide-react';
+
 import ProductCard from '../product/ProductCard';
 
 // Dummy products for the featured section
@@ -44,10 +44,9 @@ export default function FeaturedProducts() {
     <section>
       <div className="flex justify-between items-end mb-6">
         <div className="flex items-center gap-2">
-          <Sparkles className="w-6 h-6 text-purple-600" />
           <h2 className="text-2xl font-black text-slate-900 tracking-tight">Top Selling Hardware</h2>
         </div>
-        <Link to="/shop" className="text-sm font-bold text-purple-600 hover:text-purple-800 transition-colors whitespace-nowrap hidden sm:block">
+        <Link to="/shop" className="text-sm font-bold text-lexip-600 hover:text-lexip-800 transition-colors whitespace-nowrap hidden sm:block">
           See Full Shop &gt;
         </Link>
       </div>
@@ -58,7 +57,7 @@ export default function FeaturedProducts() {
         ))}
       </div>
       
-      <Link to="/shop" className="mt-4 text-sm font-bold text-purple-600 hover:text-purple-800 transition-colors text-center block sm:hidden">
+      <Link to="/shop" className="mt-4 text-sm font-bold text-lexip-600 hover:text-lexip-800 transition-colors text-center block sm:hidden">
         See Full Shop &gt;
       </Link>
     </section>

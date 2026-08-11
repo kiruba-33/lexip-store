@@ -19,7 +19,7 @@ export default function SmartExperience() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
         {steps.map((step, idx) => (
           <div key={idx} className="relative pt-8 border-t border-slate-200">
-            <span className="absolute -top-4 bg-white pr-4 text-xs font-black text-purple-600 tracking-widest">
+            <span className="absolute -top-4 bg-white pr-4 text-xs font-black text-lexip-600 tracking-widest">
               STEP {step.num}
             </span>
             <h3 className="text-xl font-black text-slate-900 mb-3">{step.title}</h3>

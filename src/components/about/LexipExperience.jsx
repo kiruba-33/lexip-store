@@ -17,7 +17,7 @@ export default function LexipExperience() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
         {steps.map((step, idx) => (
           <div key={idx} className="bg-slate-50 rounded-[2rem] p-10 shadow-[0_2px_12px_rgb(0,0,0,0.03)] border border-slate-100 flex flex-col relative overflow-hidden group hover:shadow-lg transition-shadow">
-            <div className="text-7xl font-black text-white absolute -top-4 -right-2 group-hover:text-purple-50 transition-colors z-0 drop-shadow-sm">
+            <div className="text-7xl font-black text-white absolute -top-4 -right-2 group-hover:text-lexip-50 transition-colors z-0 drop-shadow-sm">
               {step.id}
             </div>
             <div className="relative z-10 flex flex-col mt-4">

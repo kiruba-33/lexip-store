@@ -12,11 +12,11 @@ export default function ContactLocation() {
           <p className="text-slate-400 font-medium mb-8">Proudly serving customers across:</p>
           
           <div className="flex items-center gap-4 text-white font-bold text-lg">
-            <span className="flex items-center gap-2"><MapPin className="w-4 h-4 text-purple-400" /> THENI</span>
+            <span className="flex items-center gap-2"><MapPin className="w-4 h-4 text-lexip-400" /> THENI</span>
             <span className="text-slate-700">&middot;</span>
-            <span className="flex items-center gap-2"><MapPin className="w-4 h-4 text-purple-400" /> COIMBATORE</span>
+            <span className="flex items-center gap-2"><MapPin className="w-4 h-4 text-lexip-400" /> COIMBATORE</span>
             <span className="text-slate-700">&middot;</span>
-            <span className="flex items-center gap-2"><MapPin className="w-4 h-4 text-purple-400" /> DINDIGUL</span>
+            <span className="flex items-center gap-2"><MapPin className="w-4 h-4 text-lexip-400" /> DINDIGUL</span>
           </div>
         </div>
 
@@ -24,10 +24,6 @@ export default function ContactLocation() {
           <div>
             <span className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">DIRECT CONTACT</span>
             <span className="text-lg font-bold text-white">+91 979059 8203</span>
-          </div>
-          <div>
-            <span className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1">WEBSITE</span>
-            <span className="text-lg font-bold text-white">lexip.tech</span>
           </div>
         </div>
 

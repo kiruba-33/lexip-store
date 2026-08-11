@@ -13,7 +13,7 @@ export default function Terms() {
           <div className="space-y-8 text-slate-600 text-sm md:text-base leading-relaxed">
             <section>
               <h2 className="text-lg md:text-xl font-bold text-slate-900 mb-3">1. Introduction</h2>
-              <p>Welcome to LEXIP Automation Store ("LEXIP," "we," "us," or "our"). These Terms &amp; Conditions govern your access to and use of the website lexip.tech (the "Website") and the purchase of our automation and smart technology products. By accessing the Website or purchasing products, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the Website.</p>
+              <p>Welcome to LEXIP Automation Store ("LEXIP," "we," "us," or "our"). These Terms &amp; Conditions govern your access to and use of our website and the purchase of our automation and smart technology products. By accessing the website or purchasing products, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the website.</p>
             </section>
             
             <section>
@@ -143,7 +143,6 @@ export default function Terms() {
               <ul className="list-disc pl-5 space-y-1">
                 <li><strong>Phone:</strong> +91 979059 8203</li>
                 <li><strong>Email:</strong> Lexiptechnology@gmail.com</li>
-                <li><strong>Website:</strong> lexip.tech</li>
                 <li><strong>Locations:</strong> Theni | Coimbatore | Dindigul</li>
               </ul>
             </section>

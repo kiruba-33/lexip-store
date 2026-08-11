@@ -4,6 +4,7 @@ import CategoriesSection from '../../components/home/CategoriesSection';
 import FeaturedProducts from '../../components/home/FeaturedProducts';
 import WhyLexip from '../../components/home/WhyLexip';
 import SupportedEcosystem from '../../components/home/SupportedEcosystem';
+import ContactFAQ from '../../components/contact/ContactFAQ';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <FeaturedProducts />
           <WhyLexip />
           <SupportedEcosystem />
+          <ContactFAQ/>
         </div>
       </main>
     </div>

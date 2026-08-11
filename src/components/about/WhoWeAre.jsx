@@ -13,7 +13,7 @@ export default function WhoWeAre() {
         />
       </div>
       <div className="space-y-6">
-        <span className="block text-xs font-bold text-purple-600 uppercase tracking-widest mb-2">WHO WE ARE</span>
+        <span className="block text-xs font-bold text-lexip-600 uppercase tracking-widest mb-2">WHO WE ARE</span>
         <h2 className="text-3xl lg:text-4xl font-black text-slate-900 tracking-tight leading-tight">
           Technology designed around everyday life.
         </h2>

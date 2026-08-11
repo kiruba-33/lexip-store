@@ -9,13 +9,13 @@ export default function ServiceCoverage() {
           <h2 className="text-3xl font-black text-slate-900 tracking-tight mb-8">Serving Our Customers</h2>
           <ul className="space-y-4">
             <li className="flex items-center gap-4 text-xl font-bold text-slate-700">
-              <div className="w-2 h-2 rounded-full bg-purple-600"></div> Theni
+              <div className="w-2 h-2 rounded-full bg-lexip-600"></div> Theni
             </li>
             <li className="flex items-center gap-4 text-xl font-bold text-slate-700">
-              <div className="w-2 h-2 rounded-full bg-purple-600"></div> Coimbatore
+              <div className="w-2 h-2 rounded-full bg-lexip-600"></div> Coimbatore
             </li>
             <li className="flex items-center gap-4 text-xl font-bold text-slate-700">
-              <div className="w-2 h-2 rounded-full bg-purple-600"></div> Dindigul
+              <div className="w-2 h-2 rounded-full bg-lexip-600"></div> Dindigul
             </li>
           </ul>
         </div>
@@ -24,11 +24,6 @@ export default function ServiceCoverage() {
           <div>
             <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">DIRECT CONTACT</span>
             <span className="text-xl font-black text-slate-900">+91 979059 8203</span>
-          </div>
-          <div className="w-full h-px bg-slate-100"></div>
-          <div>
-            <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">WEBSITE</span>
-            <span className="text-xl font-black text-slate-900">lexip.tech</span>
           </div>
         </div>
       </div>

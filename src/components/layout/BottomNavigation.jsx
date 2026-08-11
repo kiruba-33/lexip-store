@@ -27,13 +27,13 @@ export default function BottomNavigation() {
               to={item.path}
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className={`flex flex-col items-center justify-center w-full h-full space-y-1 transition-colors ${
-                isActive ? 'text-purple-600' : 'text-slate-500 hover:text-slate-800'
+                isActive ? 'text-blue-600' : 'text-slate-500 hover:text-blue-600'
               }`}
             >
               <div className="relative">
                 <Icon className="w-6 h-6" />
                 {item.label === 'Cart' && totalItems > 0 && (
-                   <span className="absolute -top-1 -right-2 bg-purple-600 text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center shadow-sm border border-white">{totalItems}</span>
+                   <span className="absolute -top-1 -right-2 bg-blue-600 text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center shadow-sm border border-white">{totalItems}</span>
                 )}
               </div>
               <span className="text-[10px] font-medium">{item.label}</span>

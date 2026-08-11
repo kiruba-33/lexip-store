@@ -4,7 +4,6 @@ import AboutHero from '../../components/about/AboutHero';
 import WhoWeAre from '../../components/about/WhoWeAre';
 import WhatWeDo from '../../components/about/WhatWeDo';
 import AutomationEcosystem from '../../components/about/AutomationEcosystem';
-import ProductCategoryShowcase from '../../components/about/ProductCategoryShowcase';
 import WhyLexip from '../../components/about/WhyLexip';
 import SmartExperience from '../../components/about/SmartExperience';
 import ExpertiseSection from '../../components/about/ExpertiseSection';
@@ -21,7 +20,6 @@ export default function About() {
           <WhoWeAre />
           <WhatWeDo />
           <AutomationEcosystem />
-          <ProductCategoryShowcase />
         </div>
 
         {/* Full width bleed section */}

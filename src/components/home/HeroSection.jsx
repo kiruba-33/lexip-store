@@ -102,7 +102,7 @@ export default function HeroSection() {
             onClick={() => scrollToSlide(index)}
             className={`transition-all duration-300 rounded-full ${
               currentIndex === index 
-                ? 'w-6 h-2 bg-purple-600' 
+                ? 'w-6 h-2 bg-lexip-600' 
                 : 'w-2 h-2 bg-white/60 hover:bg-white'
             }`}
             aria-label={`Go to slide ${index + 1}`}

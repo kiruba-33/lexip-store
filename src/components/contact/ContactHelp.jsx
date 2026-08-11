@@ -21,9 +21,9 @@ export default function ContactHelp() {
         {helps.map((item, idx) => {
           const Icon = item.icon;
           return (
-            <div key={idx} className="bg-white rounded-2xl p-6 border border-slate-200 hover:border-purple-300 shadow-[0_2px_8px_rgb(0,0,0,0.02)] transition-colors group">
+            <div key={idx} className="bg-white rounded-2xl p-6 border border-slate-200 hover:border-lexip-300 shadow-[0_2px_8px_rgb(0,0,0,0.02)] transition-colors group">
               <div className="w-10 h-10 text-slate-700 flex items-center mb-5">
-                <Icon className="w-6 h-6 text-purple-600" strokeWidth={1.5} />
+                <Icon className="w-6 h-6 text-lexip-600" strokeWidth={1.5} />
               </div>
               <h3 className="text-sm font-bold text-slate-900 mb-2 uppercase tracking-wide">{item.title}</h3>
               <p className="text-sm text-slate-500 font-medium leading-relaxed">{item.desc}</p>

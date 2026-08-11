@@ -13,7 +13,7 @@ export default function Privacy() {
           <div className="space-y-8 text-slate-600 text-sm md:text-base leading-relaxed">
             <section>
               <h2 className="text-lg md:text-xl font-bold text-slate-900 mb-3">1. Introduction</h2>
-              <p>At LEXIP Automation Store ("LEXIP," "we," "us," or "our"), we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and share information when you visit or make a purchase from lexip.tech (the "Website").</p>
+              <p>At LEXIP Automation Store ("LEXIP," "we," "us," or "our"), we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and share information when you visit or make a purchase from our website.</p>
             </section>
             
             <section>
@@ -137,7 +137,6 @@ export default function Privacy() {
               <ul className="list-disc pl-5 space-y-1">
                 <li><strong>Phone:</strong> +91 979059 8203</li>
                 <li><strong>Email:</strong> Lexiptechnology@gmail.com</li>
-                <li><strong>Website:</strong> lexip.tech</li>
               </ul>
             </section>
 

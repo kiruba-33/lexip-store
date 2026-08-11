@@ -22,7 +22,7 @@ export default function ProductCategories() {
           <h2 className="text-3xl font-black text-slate-900 tracking-tight">Our Ecosystem</h2>
           <p className="text-slate-500 mt-2 font-medium text-lg">Premium hardware designed for comprehensive smart living.</p>
         </div>
-        <Link to="/shop" className="shrink-0 text-sm font-bold text-purple-600 hover:text-purple-800 transition-colors bg-purple-50 hover:bg-purple-100 px-6 py-3 rounded-full flex items-center gap-2">
+        <Link to="/shop" className="shrink-0 text-sm font-bold text-lexip-600 hover:text-lexip-800 transition-colors bg-lexip-50 hover:bg-lexip-100 px-6 py-3 rounded-full flex items-center gap-2">
           Explore Products &rarr;
         </Link>
       </div>
@@ -31,8 +31,8 @@ export default function ProductCategories() {
         {categories.map((cat, idx) => {
           const Icon = cat.icon;
           return (
-            <Link key={idx} to="/shop" className="bg-white rounded-[1.5rem] shadow-sm p-6 border border-slate-200 hover:border-purple-400 hover:shadow-md transition-all group flex flex-col items-center text-center h-full">
-              <div className="w-16 h-16 bg-slate-50 text-slate-700 rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 group-hover:text-purple-600 group-hover:bg-purple-50 transition-all shadow-[0_2px_10px_rgb(0,0,0,0.03)] border border-slate-100">
+            <Link key={idx} to="/shop" className="bg-white rounded-[1.5rem] shadow-sm p-6 border border-slate-200 hover:border-lexip-400 hover:shadow-md transition-all group flex flex-col items-center text-center h-full">
+              <div className="w-16 h-16 bg-slate-50 text-slate-700 rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 group-hover:text-lexip-600 group-hover:bg-lexip-50 transition-all shadow-[0_2px_10px_rgb(0,0,0,0.03)] border border-slate-100">
                 <Icon className="w-8 h-8" />
               </div>
               <h3 className="font-bold text-slate-900 mb-1">{cat.name}</h3>

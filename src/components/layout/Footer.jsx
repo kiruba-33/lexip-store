@@ -27,10 +27,10 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold text-slate-900 mb-6 uppercase tracking-widest">Quick Links</h3>
             <ul className="space-y-4">
-              <li><Link to="/" className="text-slate-700 font-medium hover:text-purple-600 transition-colors">Home</Link></li>
-              <li><Link to="/about" className="text-slate-700 font-medium hover:text-purple-600 transition-colors">About</Link></li>
-              <li><Link to="/products" className="text-slate-700 font-medium hover:text-purple-600 transition-colors">Products</Link></li>
-              <li><Link to="/contact" className="text-slate-700 font-medium hover:text-purple-600 transition-colors">Contact</Link></li>
+              <li><Link to="/" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Home</Link></li>
+              <li><Link to="/about" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">About</Link></li>
+              <li><Link to="/products" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Products</Link></li>
+              <li><Link to="/contact" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Contact</Link></li>
             </ul>
           </div>
 
@@ -38,9 +38,9 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold text-slate-900 mb-6 uppercase tracking-widest">Policies</h3>
             <ul className="space-y-4">
-              <li><Link to="/terms" className="text-slate-700 font-medium hover:text-purple-600 transition-colors">Terms &amp; Conditions</Link></li>
-              <li><Link to="/privacy" className="text-slate-700 font-medium hover:text-purple-600 transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/return-policy" className="text-slate-700 font-medium hover:text-purple-600 transition-colors">Return Policy</Link></li>
+              <li><Link to="/terms" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Terms &amp; Conditions</Link></li>
+              <li><Link to="/privacy" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/return-policy" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Return Policy</Link></li>
             </ul>
           </div>
 
@@ -54,7 +54,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="block text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-1">Email</span>
-                <a href="mailto:Lexiptechnology@gmail.com" className="text-slate-900 font-bold hover:text-purple-600 transition-colors">
+                <a href="mailto:Lexiptechnology@gmail.com" className="text-slate-900 font-bold hover:text-lexip-600 transition-colors">
                   Lexiptechnology@gmail.com
                 </a>
               </div>
@@ -63,10 +63,6 @@ export default function Footer() {
                 <span className="text-slate-900 font-bold block">Theni</span>
                 <span className="text-slate-900 font-bold block">Coimbatore</span>
                 <span className="text-slate-900 font-bold block">Dindigul</span>
-              </div>
-              <div>
-                <span className="block text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-1">Website</span>
-                <span className="text-slate-900 font-bold">lexip.tech</span>
               </div>
             </div>
           </div>

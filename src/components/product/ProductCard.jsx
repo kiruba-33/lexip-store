@@ -40,7 +40,7 @@ export default function ProductCard({ product }) {
           
           <button 
             onClick={handleAdd}
-            className={`${added ? 'bg-emerald-500 hover:bg-emerald-600 shadow-emerald-500/30' : 'bg-purple-600 hover:bg-purple-700 shadow-purple-600/30'} text-white px-4 py-1.5 rounded-xl font-bold text-xs flex items-center gap-1 transition-all shadow-sm w-[72px] justify-center`}
+            className={`${added ? 'bg-emerald-500 hover:bg-emerald-600 shadow-emerald-500/30' : 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/30'} text-white px-4 py-1.5 rounded-xl font-bold text-xs flex items-center gap-1 transition-all shadow-sm w-[72px] justify-center`}
           >
             {added ? (
               <><Check className="w-3.5 h-3.5" /> Added</>

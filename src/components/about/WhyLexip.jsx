@@ -17,7 +17,7 @@ export default function WhyLexip() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {points.map((point, idx) => (
             <div key={idx} className="space-y-4">
-              <div className="text-4xl lg:text-5xl font-black text-slate-200 border-b-2 border-purple-600 pb-4 inline-block">
+              <div className="text-4xl lg:text-5xl font-black text-slate-200 border-b-2 border-lexip-600 pb-4 inline-block">
                 0{idx + 1}
               </div>
               <h3 className="text-sm font-bold text-slate-900 uppercase tracking-widest">{point.title}</h3>
