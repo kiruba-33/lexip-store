@@ -6,9 +6,7 @@ import ShopSidebar from '../../components/shop/ShopSidebar';
 
 export default function Shop() {
   const [showMobileFilters, setShowMobileFilters] = useState(false);
-  const [maxPrice, setMaxPrice] = useState(100000);
-
-  const filteredProducts = products.filter(product => product.price <= maxPrice);
+  const filteredProducts = products;
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col pt-4 md:pt-8">
@@ -34,7 +32,7 @@ export default function Shop() {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar */}
           <aside className={`lg:w-1/4 shrink-0 ${showMobileFilters ? 'block' : 'hidden lg:block'}`}>
-            <ShopSidebar maxPrice={maxPrice} setMaxPrice={setMaxPrice} />
+            <ShopSidebar />
           </aside>
 
           {/* Product Grid */}

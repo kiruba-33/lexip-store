@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ShopSidebar({ maxPrice = 100000, setMaxPrice }) {
+export default function ShopSidebar() {
   return (
     <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm sticky top-24">
       <h3 className="font-bold text-slate-900 mb-4 tracking-tight">Filters</h3>
@@ -18,23 +18,7 @@ export default function ShopSidebar({ maxPrice = 100000, setMaxPrice }) {
         </div>
       </div>
 
-      {/* Price Range */}
-      <div>
-        <h4 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Price Range</h4>
-        <input 
-          type="range" 
-          min="0" 
-          max="100000" 
-          step="500"
-          value={maxPrice}
-          onChange={(e) => setMaxPrice && setMaxPrice(Number(e.target.value))}
-          className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-lexip-600"
-        />
-        <div className="flex justify-between items-center mt-2 text-xs font-bold text-slate-500">
-          <span>₹0</span>
-          <span>₹{maxPrice.toLocaleString('en-IN')}</span>
-        </div>
-      </div>
+
     </div>
   );
 }

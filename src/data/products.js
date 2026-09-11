@@ -10,7 +10,7 @@ export const products = [
     originalPrice: 2200,
     rating: 4.8,
     reviews: 124,
-    image: "/images/products/lexip module1.webp",
+    image: "/images/products/pro1.webp",
     description: "Convert any standard 1-gang switch into a smart switch effortlessly."
   },
   {
@@ -23,7 +23,7 @@ export const products = [
     originalPrice: 2800,
     rating: 4.7,
     reviews: 89,
-    image: "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro2.webp",
     description: "Smart 2-gang retrofit module for dual switch control hidden perfectly behind your wall plate."
   },
   {
@@ -36,7 +36,7 @@ export const products = [
     originalPrice: 4100,
     rating: 4.9,
     reviews: 210,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro3.webp",
     description: "Control up to 4 circuits independently with this compact smart relay module."
   },
   {
@@ -49,7 +49,7 @@ export const products = [
     originalPrice: 5500,
     rating: 4.6,
     reviews: 65,
-    image: "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro4.webp",
     description: "The ultimate 6-gang control hub for complex lighting setups and comprehensive room automation."
   },
   {
@@ -62,7 +62,7 @@ export const products = [
     originalPrice: 3400,
     rating: 4.8,
     reviews: 142,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro5.webp",
     description: "Heavy-duty 25A module designed specifically for high-load appliances."
   },
   {
@@ -75,7 +75,7 @@ export const products = [
     originalPrice: 1999,
     rating: 4.7,
     reviews: 320,
-    image: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro6.webp",
     description: "Portable 16A smart plug with energy monitoring capabilities. Just plug and play."
   },
   {
@@ -88,7 +88,7 @@ export const products = [
     originalPrice: 1500,
     rating: 4.5,
     reviews: 415,
-    image: "https://images.unsplash.com/photo-1544228833-2884c7eece10?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro7.webp",
     description: "Universal IR remote replacement. Control your TV, AC, and set-top box from anywhere."
   },
   {
@@ -101,7 +101,7 @@ export const products = [
     originalPrice: 2200,
     rating: 4.8,
     reviews: 124,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro8.webp",
     description: "Convert any standard 1-gang switch into a smart switch effortlessly. (Variant)"
   },
   {
@@ -114,7 +114,7 @@ export const products = [
     originalPrice: 2600,
     rating: 4.6,
     reviews: 95,
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro9.webp",
     description: "Smart 12V LED strip controller for vibrant RGBW ambient lighting automation."
   },
   {
@@ -127,7 +127,7 @@ export const products = [
     originalPrice: 2800,
     rating: 4.7,
     reviews: 78,
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro10.webp",
     description: "Industrial-grade 24V RGBW controller designed for longer LED strips and commercial setups."
   },
   {
@@ -221,7 +221,7 @@ export const products = [
     price: 3500, // Mock price
     rating: 4.8,
     reviews: 90,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro17.webp",
     description: "Premium Metal Touch series variant."
   },
   {
@@ -233,7 +233,7 @@ export const products = [
     price: 3500,
     rating: 4.8,
     reviews: 90,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro18.webp",
     description: "Premium Metal Touch series variant."
   },
   {
@@ -245,7 +245,7 @@ export const products = [
     price: 3500,
     rating: 4.8,
     reviews: 90,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro19.webp",
     description: "Premium Metal Touch series variant."
   },
   {
@@ -257,7 +257,7 @@ export const products = [
     price: 3500,
     rating: 4.8,
     reviews: 90,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro20.webp",
     description: "Premium Metal Touch series variant."
   },
   {
@@ -269,7 +269,7 @@ export const products = [
     price: 3500,
     rating: 4.8,
     reviews: 90,
-    image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=600",
+    image: "/images/products/pro21.webp",
     description: "Premium Metal Touch series variant."
   },
 
