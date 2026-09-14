@@ -4,17 +4,17 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const slides = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200&h=600',
+    image: '/images/hero11.webp',
     title: 'Industrial Automation',
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200&h=600',
+    image: '/images/hero2.webp',
     title: 'Smart Sensors',
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&q=80&w=1200&h=600',
+    image: '/images/hero3.webp',
     title: 'IoT Connectivity',
   }
 ];
