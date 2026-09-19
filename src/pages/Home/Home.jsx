@@ -5,6 +5,7 @@ import FeaturedProducts from '../../components/home/FeaturedProducts';
 import WhyLexip from '../../components/home/WhyLexip';
 import SupportedEcosystem from '../../components/home/SupportedEcosystem';
 import ContactFAQ from '../../components/contact/ContactFAQ';
+import HomeAboutSection from '../../components/home/HomeAboutSection';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <div className="mt-12 space-y-12">
           <CategoriesSection />
           <FeaturedProducts />
+          <HomeAboutSection />
           <WhyLexip />
           <SupportedEcosystem />
           <ContactFAQ/>

@@ -11,7 +11,7 @@ const featuredProducts = [
     brand: 'Siemens',
     price: 24500,
     originalPrice: 28000,
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400&h=400'
+    image: '/images/products/siemens_s7_1200.png'
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const featuredProducts = [
     brand: 'Omron',
     price: 4500,
     originalPrice: 5500,
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=400&h=400'
+    image: '/images/products/omron_e2e_next.png'
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const featuredProducts = [
     brand: 'Lexip',
     price: 12900,
     originalPrice: 15000,
-    image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=400&h=400'
+    image: '/images/products/lexip_hub_v2.png'
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const featuredProducts = [
     brand: 'Allen-Bradley',
     price: 39900,
     originalPrice: 42000,
-    image: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&q=80&w=400&h=400'
+    image: '/images/products/allen_bradley_micro850.png'
   }
 ];
 
