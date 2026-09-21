@@ -6,7 +6,7 @@ export default function Terms() {
       <main className="flex-grow container mx-auto px-4 pb-12">
         <article className="max-w-4xl mx-auto bg-white p-6 md:p-12 rounded-3xl shadow-sm border border-slate-200">
           <header className="mb-10 border-b border-slate-100 pb-8">
-            <h1 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 tracking-tight">Terms &amp; Conditions</h1>
+            <h1 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 tracking-tight">Terms and Conditions</h1>
             <p className="text-sm font-bold text-slate-400 uppercase tracking-widest">Effective Date: 10 August 2026</p>
           </header>
           

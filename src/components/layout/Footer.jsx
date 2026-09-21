@@ -38,8 +38,8 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold text-slate-900 mb-6 uppercase tracking-widest">Policies</h3>
             <ul className="space-y-4">
-              <li><Link to="/terms" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Terms &amp; Conditions</Link></li>
-              <li><Link to="/privacy" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms-and-conditions" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Terms and Conditions</Link></li>
+              <li><Link to="/privacy-and-policy" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Privacy Policy</Link></li>
               <li><Link to="/return-policy" className="text-slate-700 font-medium hover:text-lexip-600 transition-colors">Return Policy</Link></li>
             </ul>
           </div>
@@ -72,7 +72,15 @@ export default function Footer() {
         {/* Copyright Row */}
         <div className="border-t border-slate-200 mt-16 pt-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm font-medium text-slate-600">
-            &copy; 2026 LEXIP Automation Store. All rights reserved.
+            &copy; 2026 LEXIP Automation Store. All rights reserved. Developed by{" "}
+            <a
+              href="https://www.navipromotions.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-lexip-600 transition-colors"
+            >
+              Navi Promotions
+            </a>
           </p>
         </div>
 

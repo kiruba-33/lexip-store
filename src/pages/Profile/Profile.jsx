@@ -56,11 +56,11 @@ export default function Profile() {
                   <Bell className="w-5 h-5 text-slate-400" />
                   Notifications
                 </button>
-                <Link to="/terms" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 transition-colors font-medium text-sm">
+                <Link to="/terms-and-conditions" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 transition-colors font-medium text-sm">
                   <FileText className="w-5 h-5 text-slate-400" />
                   Terms & Conditions
                 </Link>
-                <Link to="/privacy" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 transition-colors font-medium text-sm">
+                <Link to="/privacy-and-policy" className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 text-slate-700 transition-colors font-medium text-sm">
                   <Shield className="w-5 h-5 text-slate-400" />
                   Privacy Policy
                 </Link>

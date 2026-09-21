@@ -19,11 +19,11 @@ export default function MobileNavbar() {
           
           {/* Right Side: Quick Links */}
           <div className="flex-1 flex items-center justify-start gap-2 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-            <Link to="/terms" className="bg-slate-100 rounded-full px-3 py-1.5 text-[11px] font-bold text-slate-700 whitespace-nowrap flex items-center gap-1">
+            <Link to="/terms-and-conditions" className="bg-slate-100 rounded-full px-3 py-1.5 text-[11px] font-bold text-slate-700 whitespace-nowrap flex items-center gap-1">
               <ShieldCheck className="w-4 h-4 text-slate-500" />
               <span>Terms &amp; Conditions</span>
             </Link>
-            <Link to="/privacy" className="bg-slate-100 rounded-full px-3 py-1.5 text-[11px] font-bold text-slate-700 whitespace-nowrap flex items-center gap-1">
+            <Link to="/privacy-and-policy" className="bg-slate-100 rounded-full px-3 py-1.5 text-[11px] font-bold text-slate-700 whitespace-nowrap flex items-center gap-1">
               <Lock className="w-4 h-4 text-slate-500" />
               <span>Privacy Policy</span>
             </Link>

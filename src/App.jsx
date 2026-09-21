@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 // Layout
 import MobileNavbar from './components/layout/MobileNavbar';
@@ -37,8 +37,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
-            <Route path="/terms" element={<Terms />} />
-            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms-and-conditions" element={<Terms />} />
+            <Route path="/privacy-and-policy" element={<Privacy />} />
+            <Route path="/terms" element={<Navigate to="/terms-and-conditions" replace />} />
+            <Route path="/privacy" element={<Navigate to="/privacy-and-policy" replace />} />
             <Route path="/return-policy" element={<ReturnPolicy />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
